@@ -1,0 +1,19 @@
+Running 15 tests using 6 workers
+
+  ✓   1 [chromium] › tests\persistence.spec.ts:5:7 › TodoMVC — persistence › todos survive a page reload (850ms)
+  ✓   3 [chromium] › tests\todo.spec.ts:12:7 › TodoMVC — core flows › adds new todos to the list (737ms)
+  ✓   2 [chromium] › tests\todo.spec.ts:32:7 › TodoMVC — core flows › filters active and completed todos (915ms)
+  ✓   4 [chromium] › tests\todo.spec.ts:18:7 › TodoMVC — core flows › marks a todo as completed (735ms)
+  ✓   6 [chromium] › tests\todo.spec.ts:25:7 › TodoMVC — core flows › deletes a todo (772ms)
+  ✓  11 [webkit] › tests\persistence.spec.ts:5:7 › TodoMVC — persistence › todos survive a page reload (1.3s)
+  ✓  12 [webkit] › tests\todo.spec.ts:12:7 › TodoMVC — core flows › adds new todos to the list (938ms)
+  ✓  13 [webkit] › tests\todo.spec.ts:18:7 › TodoMVC — core flows › marks a todo as completed (1.3s)
+  ✓   5 [firefox] › tests\persistence.spec.ts:5:7 › TodoMVC — persistence › todos survive a page reload (6.1s)
+  ✓  14 [webkit] › tests\todo.spec.ts:25:7 › TodoMVC — core flows › deletes a todo (1.4s)
+  ✓   7 [firefox] › tests\todo.spec.ts:12:7 › TodoMVC — core flows › adds new todos to the list (6.4s)
+  ✓  15 [webkit] › tests\todo.spec.ts:32:7 › TodoMVC — core flows › filters active and completed todos (1.3s)
+  ✓  10 [firefox] › tests\todo.spec.ts:32:7 › TodoMVC — core flows › filters active and completed todos (6.8s)
+  ✓   9 [firefox] › tests\todo.spec.ts:25:7 › TodoMVC — core flows › deletes a todo (6.1s)
+  ✓   8 [firefox] › tests\todo.spec.ts:18:7 › TodoMVC — core flows › marks a todo as completed (5.7s)
+
+  15 passed (11.5s)
